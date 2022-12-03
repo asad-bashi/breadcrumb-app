@@ -1,0 +1,28 @@
+.link {
+  cursor: pointer;
+}
+
+main {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 1.3rem;
+}
+
+.folder-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-name {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.trail {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.file-name:hover,
+.trail:hover {
+  color: blue;
+}
